@@ -1,0 +1,15 @@
+# For more information, see: http://docs.haskellstack.org/en/stable/yaml_configuration.html
+
+resolver: nightly-2018-06-27
+
+# Local packages, usually specified by relative directory name
+packages:
+  - .
+
+
+allow-newer: true
+extra-deps:
+
+ghc-options:
+  "$everything": -O0
+
